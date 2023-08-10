@@ -2,4 +2,4 @@
 
 nome = str(input("Digite o nome da pessoa: ").upper()).strip()
 
-print('SILVA' in nome)
+print('Seu nome tem Silva? {}'.format('SILVA' in nome))
