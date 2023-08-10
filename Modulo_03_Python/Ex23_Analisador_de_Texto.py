@@ -4,14 +4,9 @@
 #Quantas letras ao todo sem considerar os espacos
 #Quantas letras tem o primeiro nome
 
-nome = str(input('Digite seu nome completo: '))
+nome = str(input('Digite seu nome completo: ')).strip()
 
 print('Seu nome completo em maiusculo: {}'.format(nome.upper()))
 print('Seu nome completo em minusculo: {}'.format(nome.lower()))
-#Vai trocar os espacos e juntar as palavras
-contar = len(nome.replace(" ", ""))
-print('Quantidade de letras sem considerar os espacos: {}'.format(contar))
-#Vai mostrar apenas o primeiro nome
-primeiro_nome = nome.split()[0]
-#Vai contar as letras do primeiro nome
-print('Quantidade de letras do primeiro nome: {}'.format(len(primeiro_nome)))
+print('Quantidade de letras sem considerar os espacos: {}'.format(len(nome) - nome.count(' ')))
+print('Quantidade de letras do primeiro nome: {}'.format(nome.find(' ')))
