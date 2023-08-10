@@ -1,3 +1,7 @@
+#Crie um programa que receba o cateto oposto e adjacente e calcule a hipotenusa do triangulo.
+# Formula: Co² + Ca² = Hi²
+# Formula: Hi = (Co² + Ca²) ** (1/2)
+
 import math
 
 n1 = float(input('Informe o cateto oposto: '))

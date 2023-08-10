@@ -1,4 +1,4 @@
-#Crie um programa que leia um numero inteiro e diga se ele e impar ou par
+#Crie um programa que leia um numero inteiro e diga se ele e impar ou par.
 
 num = int(input('Digite um numero inteiro: '))
 

@@ -1,3 +1,5 @@
+#Crie um programa que receba um valor em metros e converta para centimetros e milimetros.
+
 n1 = float(input('Digite um valor em metros: '))
 
 cm = n1 * 100

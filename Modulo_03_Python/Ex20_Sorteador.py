@@ -1,3 +1,5 @@
+#Crie um programa que receba quatro alunos e realize o sorteio deles escolhendo um.
+
 import random
 
 n1 = str(input('Primeiro aluno: '))

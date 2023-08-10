@@ -1,3 +1,5 @@
+#Crie um programa que receba um valor em reais e convertar para dolar, euro e libra.
+
 valor = float(input('Quantos reais você tem? R$'))
 
 dolar = valor / 4.86

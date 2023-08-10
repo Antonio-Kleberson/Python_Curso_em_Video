@@ -1,3 +1,5 @@
+#Crie um programa que receba a entrada de uma entrada pelo o teclado e analise a variavel.
+
 v = input('Digite algo: ')
 
 #verifica o tipo da variavel

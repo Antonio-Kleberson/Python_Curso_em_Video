@@ -1,3 +1,5 @@
+#Crie um programa que receba o valor de um angulo e calcule o senno, cosseno e a tangente.
+
 import math
 
 ang = float(input('Digite um angulo: '))

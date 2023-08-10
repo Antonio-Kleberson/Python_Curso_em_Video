@@ -1,4 +1,4 @@
-#Crie um programa que leia um ano qualquer e determine se ele e bissexto
+#Crie um programa que leia um ano qualquer e determine se ele e bissexto.
 from datetime import date
 
 ano = int(input('Digite um ano qualquer: '))

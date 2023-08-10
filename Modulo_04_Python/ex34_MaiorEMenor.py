@@ -1,4 +1,4 @@
-#Crie um programa que leia tres numeros inteiros e diga qual e o maior e qual e o menor valor
+#Crie um programa que leia tres numeros inteiros e diga qual e o maior e qual e o menor valor.
 
 n1 = int(input('Digite o primeiro valor inteiro: '))
 n2 = int(input('Digite o segundo valor inteiro: '))

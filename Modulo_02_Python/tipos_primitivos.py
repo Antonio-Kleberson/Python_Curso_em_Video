@@ -1,5 +1,0 @@
-n1 = input('Digite alguma coisa: ')
-print(n1.isalpha)
-print(n1.isnumeric())
-print(n1.isalnum)
-print(n1.isupper)

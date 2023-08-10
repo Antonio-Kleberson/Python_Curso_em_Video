@@ -1,3 +1,6 @@
+#Crie um programa que receba quatro alunos e realize o sorteio da ordem de apresentacao deles.
+#Ex: Fulano, Ciclano, Beltrano, Joao
+
 import random
 
 n1 = str(input('Primeiro aluno: '))
@@ -8,4 +11,4 @@ n4 = str(input('Quarto aluno: '))
 lista = [n1, n2, n3, n4]
 random.shuffle(lista)
 
-print('A ordem de apresemtação será: {}'.format(lista))
+print('A ordem de apresentação será: {}'.format(lista))

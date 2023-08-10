@@ -1,3 +1,5 @@
+#Crie um programa que receba um numero e mostre seu antecessor e sucessor.
+
 n1 = int(input('Digite um numero: '))
 
 ant = n1 - 1

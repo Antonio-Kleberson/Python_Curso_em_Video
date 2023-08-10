@@ -1,4 +1,4 @@
-#Crie um programa que leia tres retas e informe ao usuario se elas podem formar um triangulo
+#Crie um programa que leia tres retas e informe ao usuario se elas podem formar um triangulo.
 
 r1 = float(input('Informe a primeira reta: '))
 r2 = float(input('Informe a segunda reta: '))
