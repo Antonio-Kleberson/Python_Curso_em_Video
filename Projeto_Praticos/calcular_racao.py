@@ -4,7 +4,7 @@ def consumo_mensal(qnt_animais, kg_racao, kg_saco):
     consumo_mes = consumo_diario * 30
     qnt_sacos = consumo_mes / kg_saco
     
-    return consumo_diario, consumo_mes, qnt_sacos
+    return consumo_diario, consumo_mes, qnt_sacos 
 
 # Path: Projeto_Praticos/calcular_racao.py
 
