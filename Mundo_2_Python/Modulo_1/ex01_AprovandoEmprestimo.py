@@ -16,6 +16,6 @@ else:
     print("-----------------------------------------------")
     print("Parabens! Emprestimo concedido!")
     print("Valor da Casa: {}".format(valor_casa))
-    print("Valor da Parcela: {}".format(valor_parcelas))
+    print("Valor da Parcela: {:.2f}".format(valor_parcelas))
     print("Quantidade de anos para pagar: {} meses ({} anos)".format((qnt_anos * 12), qnt_anos))
     print("-----------------------------------------------")
